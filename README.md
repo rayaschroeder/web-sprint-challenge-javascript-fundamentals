@@ -51,6 +51,9 @@ A function and its lexical environment, a.k.a. any data it needs to run.
 
 5. Why do we need super() in an extended class?
 
+Calling super makes it so the child inherits the parent properties.
+
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
