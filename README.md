@@ -27,13 +27,32 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.map makes a new array and shows specific key:value pairs you specify. You can modify the information in the key:value pairs. 
+.forEach doesn't make a new array or let you modify what's in the array, it simply prints the element and / or index as an array.
+
 2. Explain the difference between a callback and a higher order function.
+
+A higher order function is a function that takes another function (a callback) as a parameter.
+A callback is the function that gets invoked inside of the higher-order function. To invoke the callback, you don't need to use its actual name. You can just refer to it as callback or cb or whatever you specified as the argument in the parameter.
 
 3. What is closure?
 
+A function and its lexical environment, a.k.a. any data it needs to run.
+
 4. Describe the four rules of the 'this' keyword.
 
+1) Global binding: if you use 'this' to refer to nothing in particular, for example, (console.log(this));, it will return the window Object.
+
+2) Implicit binding: if you invoke a function with a dot, the object to the left of the dot is 'this'.
+
+ 3) New binding: if you create a specific instance of an object with the 'new' keyword, 'this' will refer to a specific instance, depending on how you invoke it. For example, in jerry.speak();, 'this' refers to the jerry instance of the object.
+
+4) Explicit binding: if you use .call or .apply, 'this' refers to the object you specify in the parenthesis, for example in jerry.speak.call(newman) 'this' refers to the newman instance of the object, not the jerry instance of it. 
+
 5. Why do we need super() in an extended class?
+
+Calling super makes it so the child inherits the parent properties.
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
