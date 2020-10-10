@@ -18,7 +18,7 @@ myFunction();
 
 // Explanation: 
 
-nestedFunction can access the variable internal because functions can "reach outside themselves" and access variables outside of their scope. 
+// nestedFunction can access the variable internal because functions can "reach outside themselves" and access variables outside of their scope. 
 
 
 /* Task 2: Counter */
